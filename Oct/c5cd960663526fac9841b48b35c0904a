@@ -1,0 +1,111 @@
+
+   		 
+googletag.display('div-gpt-ad-1385468200074-0'); 
+(function(){var g=this,l=function(a,b){var c=a.split("."),d=g;c[0]in d||!d.execScript||d.execScript("var "+c[0]);for(var e;c.length&&(e=c.shift());)c.length||void 0===b?d=d[e]?d[e]:d[e]={}:d[e]=b},m=function(a,b,c){return a.call.apply(a.bind,arguments)},n=function(a,b,c){if(!a)throw Error();if(2<arguments.length){var d=Array.prototype.slice.call(arguments,2);return function(){var c=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(c,d);return a.apply(b,c)}}return function(){return a.apply(b,arguments)}},p=function(a,b,c){p=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?m:n;return p.apply(null,arguments)},q=Date.now||function(){return+new Date};var r=document,s=window;var t=function(a,b){for(var c in a)Object.prototype.hasOwnProperty.call(a,c)&&b.call(null,a[c],c,a)},w=function(a,b){a.google_image_requests||(a.google_image_requests=[]);var c=a.document.createElement("img");c.src=b;a.google_image_requests.push(c)};var x=function(a){return{visible:1,hidden:2,prerender:3,preview:4}[a.webkitVisibilityState||a.mozVisibilityState||a.visibilityState||""]||0},y=function(a){var b;a.mozVisibilityState?b="mozvisibilitychange":a.webkitVisibilityState?b="webkitvisibilitychange":a.visibilityState&&(b="visibilitychange");return b};var C=function(){this.g=r;this.k=s;this.j=!1;this.i=null;this.h=[];this.o={};if(z)this.i=q();else if(3==x(this.g)){this.i=q();var a=p(this.q,this);A&&(a=A("di::vch",a));this.p=a;var b=this.g,c=y(this.g);b.addEventListener?b.addEventListener(c,a,!1):b.attachEvent&&b.attachEvent("on"+c,a)}else B(this)},A;C.m=function(){return C.n?C.n:C.n=new C};var D=/^([^:]+:\/\/[^/]+)/m,G=/^\d*,(.+)$/m,z=!1,B=function(a){if(!a.j){a.j=!0;for(var b=0;b<a.h.length;++b)a.l.apply(a,a.h[b]);a.h=[]}};C.prototype.s=function(a,b){var c=b.target.u();(c=G.exec(c))&&(this.o[a]=c[1])};C.prototype.l=function(a,b){this.k.rvdt=this.i?q()-this.i:0;var c;if(c=this.t)t:{try{var d=D.exec(this.k.location.href),e=D.exec(a);if(d&&e&&d[1]==e[1]&&b){var f=p(this.s,this,b);this.t(a,f);c=!0;break t}}catch(u){}c=!1}c||w(this.k,a)};C.prototype.q=function(){if(3!=x(this.g)){B(this);var a=this.g,b=y(this.g),c=this.p;a.removeEventListener?a.removeEventListener(b,c,!1):a.detachEvent&&a.detachEvent("on"+b,c)}};var H=/^true$/.test("")?!0:!1;var I={},J=function(a){var b=a.toString();a.name&&-1==b.indexOf(a.name)&&(b+=": "+a.name);a.message&&-1==b.indexOf(a.message)&&(b+=": "+a.message);if(a.stack){a=a.stack;var c=b;try{-1==a.indexOf(c)&&(a=c+"\n"+a);for(var d;a!=d;)d=a,a=a.replace(/((https?:\/..*\/)[^\/:]*:\d+(?:.|\n)*)\2/,"$1");b=a.replace(/\n */g,"\n")}catch(e){b=c}}return b},M=function(a,b,c,d){var e=K,f,u=!0;try{f=b()}catch(h){try{var N=J(h);b="";h.fileName&&(b=h.fileName);var E=-1;h.lineNumber&&(E=h.lineNumber);var v;t:{try{v=c?c():"";break t}catch(S){}v=""}u=e(a,N,b,E,v)}catch(k){try{var O=J(k);a="";k.fileName&&(a=k.fileName);c=-1;k.lineNumber&&(c=k.lineNumber);K("pAR",O,a,c,void 0,void 0)}catch(F){L({context:"mRE",msg:F.toString()+"\n"+(F.stack||"")},void 0)}}if(!u)throw h;}finally{if(d)try{d()}catch(T){}}return f},K=function(a,b,c,d,e,f){a={context:a,msg:b.substring(0,512),eid:e&&e.substring(0,40),file:c,line:d.toString(),url:r.URL.substring(0,512),ref:r.referrer.substring(0,512)};P(a);L(a,f);return!0},L=function(a,b){try{if(Math.random()<(b||.01)){var c="/pagead/gen_204?id=jserror"+Q(a),d="http"+("https:"==s.location.protocol?"s":"")+"://pagead2.googlesyndication.com"+c,d=d.substring(0,2E3);w(s,d)}}catch(e){}},P=function(a){var b=a||{};t(I,function(a,d){b[d]=s[a]})},R=function(a,b,c,d,e){return function(){var f=arguments;return M(a,function(){return b.apply(c,f)},d,e)}},Q=function(a){var b="";t(a,function(a,d){if(0===a||a)b+="&"+d+"="+("function"==typeof encodeURIComponent?encodeURIComponent(a):escape(a))});return b};A=function(a,b,c,d){return R(a,b,void 0,c,d)};z=H;l("vu",R("vu",function(a,b){var c=a.replace("&amp;","&"),d=/(google|doubleclick).*\/pagead\/adview/.test(c),e=C.m();if(d){d="&vis="+x(e.g);b&&(d+="&ve=1");var f=c.indexOf("&adurl"),c=-1==f?c+d:c.substring(0,f)+d+c.substring(f)}e.j?e.l(c,b):e.h.push([c,b])}));l("vv",R("vv",function(){z&&B(C.m())}));})();vu("https://securepubads.g.doubleclick.net/pcs/view?xai\x3dAKAOjsu6BcSQ046wq8tYWRXxznsdrkpRF5FsVE7hmGAzOYV4mBGXVw2iN3Vrc7nluNciAF7ZwfwIbReMCTnZu07fnGEawelPCfMkbhxG5ToIQQblulg0q4sieiLlypeIzdvM2GwpY_zsB-XiXqmn2SIhB6bqKbK5FoM8pf0Knfws0F4Dtpg7EOiU5JhyLa02THwjX_wowmaRhPXEneI2394n0Sy1dYCXSFeEWhMZQ4TyBKoxYKSRx3o\x26sig\x3dCg0ArKJSzJHvpJCQvzELEAE\x26urlfix\x3d1\x26adurl\x3d")
+
+osdlfm(-1,'','B4xGNLD7ZWZWZC6HItgfoubrwBwAAAAAQATgByAEJwAIC4AIA4AQBoAYW0ggFCIBhEAE','',2103458095,true,'ud\x3d1\x26la\x3d0\x26alp\x3dxai\x26alh\x3d938674913\x26',3,'CAASBORoma4','//pagead2.googlesyndication.com/activeview?avi\x3dB4xGNLD7ZWZWZC6HItgfoubrwBwAAAAAQATgByAEJwAIC4AIA4AQBoAYW0ggFCIBhEAE\x26cid\x3dCAASBORoma4');if (window.top && window.top.postMessage) {window.top.postMessage('{"googMsgType":"adpnt"}','*');}
+
+ 
+
+
+
+Mayor Athol Trollip was said to be hard at work to source the remaining R187-million from external sources
+R200m Ironman bill set to soar as metro to fund items, including:
+
+
+
+
+International flights, hundreds of hotel rooms and a huge pasta party
+
+
+
+
+A 3 000m2 village to accommodate vendor booths
+
+
+
+
+
+A 4 000m2 supply depot to organise event supplies and trucks
+
+
+
+
+
+A 500m2 area for VIP guests near the finish line
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+International flights, hundreds of hotel rooms and a massive pasta party – these are just some of the expenses for which Nelson Mandela Bay must foot the bill when it hosts the Ironman 70.3 World Championship next year.
+And while the cost for a myriad requirements has been estimated at R8-million by organisers, there are fears it could increase sixfold.
+The requirements are detailed in the host city agreement between Ironman and the metro, and range from flights to accommodation and a banquet marquee for nearly 5 000 guests.
+This is over and above the R200-million the metro has yet to source to fund road upgrades along the planned route for the championship, set to be held in the Bay in September next year, MMC for budget and treasury Retief Odendaal confirmed.
+A proposal to foot R13-million of this bill by borrowing funds set aside for road resurfacing in other wards has been discussed at length in council and the metro’s budget and treasury committee meetings, but no decision has been reached yet.
+Meanwhile, mayor Athol Trollip was said to be hard at work to source the remaining R187-million from external sources.
+However, the metro is expected to provide much more than just improved roads and municipal services, according to the lengthy agreement.
+
+
+The document stipulates that the metro would have to set aside R8-million to cover various expenses through its directorates.
+Though this includes basic services such as security and traffic services, assistance in swim safety and waste management, the municipality is also responsible for securing 340 hotel rooms – at no cost to Ironman – for race week, with a further 50 rooms needed for Ironman staff prior to the race.
+Beyond this, the metro has to pay for delegates from Ironman in the US to visit the city three times and perform inspections of the metro’s progress.
+The provision of a marquee, to be used for a banquet for 4 750 guests, will also be the metro’s responsibility at a price tag of R650 000. Another R1-million will be contributed to a live television broadcast of the event on SuperSport.
+
+Other items the municipality is expected to pay for include:
+
+A 3 000m² ironman village to accommodate vendor booths;
+A 4 000m² supply depot to organise event supplies and trucks;
+A 1 000m² athletes’ garden close to the finish line;
+A centre to accommodate 100m² media houses;
+A 500m² area for VIP guests near the finish line; and ý A 1 00m² race office for officials. The metro already paid a sponsorship fee of R7.8-million earlier this year, which included finance for an awards function and pasta party at a cost of R1.1-million.
+
+
+In return, the metro will receive 80 VIP tickets from Ironman, along with the “indirect commercial and other benefits” that the event will bring.
+The corporation will also donate approximately $50 000 (about R800 000 depending on the exchange rate at the time) to a local charity organisation after the event.
+However, Odendaal is adamant the event will bring countless other benefits to the city.
+“Only a fool wouldn’t realise the benefits this will have for the city,” Odendaal said.
+“Durban just spent R110-million for their bid for the Commonwealth Games and they weren’t successful.
+“All over the country, metros fall over their feet to be able to attract these kinds of events. The benefit Ironman is bringing to us is that we can host this event.”
+Odendaal said the event would bring an estimated R400-million in revenue to the metro, along with job opportunities for unemployed residents.
+“Creating jobs is a direct benefit for our city. We’re going to grow the economy [by] growing the tourism industry.
+“Millions of people will watch the event worldwide. That kind of marketing you cannot buy – and this will possibly be the single biggest benefit of the whole event.”
+Noxolo Nqwazi, the metro’s executive director of sport, recreation, arts and culture, said it was a “strategic decision” for the metro to invest in Ironman and other sporting events.
+
+
+“One athlete participating in Ironman will bring his family and coaches, which means 4 500 athletes will amount to nearly 16 000 [visitors] in the metro,” Nqwazi said.
+Regarding the expenses the metro has to incur, Nqwazi confirmed the metro was paying for flights for two Ironman representatives to evaluate their progress.
+“However, we are not paying for the 340 hotel rooms, as that will be offered by hotels in the area.”
+Though the list of contractual commitments included the planned road upgrades, Nqwazi said the metro spent three months on the agreement to ensure their costs would not exceed R8-million.
+“Half of the R8-million will be [in the form of] our own municipal services, including beach infrastructure and safety services. The R8-million will be included in the 2018/19 budget.”
+Odendaal also said the metro would budget for any other “incidental costs” that may arise.
+“The contract is absolutely standard and in line with the requirements [of other events]. When hosting an event, one expects there to be certain requirements and a city would have to decide according to economic benefit [if it is worth it], but it is worth the benefit to us.”
+However, Rory Riordan, ANC councillor and former head of the budget and treasury committee under the previous administration, had his misgivings about the agreement.
+“Whether it is in this year’s budget or the next, it is still a lot of money to spend on a two-day event,” Riordan said.
+“A lot of the responsibilities set out [in the contract] are not included in the R8-million and the expenses are much more complicated.
+“With all they have to do, [I’d estimate the expenses would be] on the wrong side of R50-million.”
+Keith Bowler, managing director for Ironman Africa, said the metro was chosen following a standard bid process. “It is Ironman’s policy not to disclose any further details of the host venue agreements,” Bowler said.
+Meanwhile, tourism associations in the metro are excited about the influx of guests expected during the event.
+“It will really bring huge numbers,” predicted Shena Wilmot, chairwoman of the Port Elizabeth Metro Bed and Breakfast Accommodation.
+“It’s a very important event that will make a big difference for the city’s tourism, and we hope the people [who visit the city] will go home and tell others about the city, so we’ll have more visitors coming here.”
+Tourism expert Peter Myles also said the metro’s planned investment would receive an excellent return.
+“An investment of R8-million will generate a return of R233-million, based on [data from] previous events,” Myles said.
+“There are [also] hidden benefits. Hosting the world championships is an endorsement of the city’s claim to being the ‘Water Sport Capital of South Africa’. This endorsement usually means the city has a better chance of attracting similar events.”
+
+
+<div><style scoped="true">div[class*=chrgads] { box-sizing: border-box } .chrgads-ad-wrapper { display: flex; flex-wrap: wrap; align-content: space-around; margin: 0; padding: 20px 0 0; cursor: pointer; border-top: 1px solid #eaeaea; font-family: Arial, sans-serif; } .chrgads-media-wrapper { flex-basis: 100%; margin-bottom: 1em } @media (min-width:768px) { .chrgads-media-wrapper { flex-basis: 35%; margin: 0 } } .chrgads-img-wrapper img { max-width: 100%; } .chrgads-img-wrapper img[src=""] { display: none; } .chrgads-video-wrapper { width: 100%; } .chrgads-text-wrapper { flex-basis: 100%; text-align: left; } @media (min-width:768px) { .chrgads-text-wrapper { flex-basis: 65%; padding-left: 10px } } .chrgads-title { color: #333; font-size: 24px; line-height: 1; margin: 0; } @media (min-width:768px) { .chrgads-title {} } .chrgads-description { color: #000; margin: 10px 0 !important; font-size: 14px; line-height: 20px; } @media (min-width:768px) { .chrgads-description {} } .chrgads-info { color: #333; font-weight: bold; line-height: 1; margin-bottom: 10px; } @media (min-width:768px) { .chrgads-info {} } .chrgads-sponsored { color: #fff; font-size: 10px; background-color: #0071bd; padding: 4px 5px; text-transform: uppercase; font-weight: bold; line-height: 1; display: inline-block; vertical-align: middle; } @media (min-width:768px) { .chrgads-sponsored {} } .chrgads-advertiser{ color: #333; font-size: 12px; font-weight: bold; line-height: 1; margin-top: 0px; display: inline-block; vertical-align: middle; } @media (min-width:768px) { .chrgads-advertiser {} } a, a:hover, a:visited { text-decoration: none !important } </style><a href="${URL}" target="_blank"><div class="chrgads-ad-wrapper"><div class="chrgads-media-wrapper"><div class="chrgads-img-wrapper"><img src="${MAIN}" alt="${TITLE}"></div>${VAST} </div><div class="chrgads-text-wrapper"><div class="chrgads-info"><span class="chrgads-sponsored">Promoted</span><span class="chrgads-advertiser" style="">${COMPANY_NAME} | ${DISPLAY_URL}</span></div><div class="chrgads-title">${TITLE}</div><p class="chrgads-description">${DESCRIPTION}</p></div></div></a></div>
+
+
+
+	Related
+Big payoff on cards for world event in PE70.3 Ironman to cost council R8m – but multimillion economic bonanza expected Being named as the host city for the 2018 Ironman 70.3 World Championships, which is expected to generate a massive R300-million for the Nelson Mandela Bay economy, has been hailed as a major tourism coup for the metro.…November 11, 2016ANC takes over PE for poll launchMassive boost for the economy as party plans to host 100 000 people at election manifesto event PORT Elizabeth is fully booked as the ANC takes over the city this week in preparation for a massive rally where the party will unveil its election manifesto at the Nelson Mandela Bay…April 11, 2016Editorial: Must safeguard all who use roadsThe eyes of the world turn to Nelson Mandela Bay in April each year when the metro hosts the Ironman triathlon. Normally the city’s heart swells with pride, but this year before the event even has started, it is clouded with shame. Top Belgian athlete Frederik Van Lierde was mugged…March 28, 2017   	
