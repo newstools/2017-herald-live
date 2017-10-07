@@ -1,0 +1,57 @@
+
+   		 
+googletag.display('div-gpt-ad-1385468200074-0'); 
+(function(){var g=this,l=function(a,b){var c=a.split("."),d=g;c[0]in d||!d.execScript||d.execScript("var "+c[0]);for(var e;c.length&&(e=c.shift());)c.length||void 0===b?d=d[e]?d[e]:d[e]={}:d[e]=b},m=function(a,b,c){return a.call.apply(a.bind,arguments)},n=function(a,b,c){if(!a)throw Error();if(2<arguments.length){var d=Array.prototype.slice.call(arguments,2);return function(){var c=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(c,d);return a.apply(b,c)}}return function(){return a.apply(b,arguments)}},p=function(a,b,c){p=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?m:n;return p.apply(null,arguments)},q=Date.now||function(){return+new Date};var r=document,s=window;var t=function(a,b){for(var c in a)Object.prototype.hasOwnProperty.call(a,c)&&b.call(null,a[c],c,a)},w=function(a,b){a.google_image_requests||(a.google_image_requests=[]);var c=a.document.createElement("img");c.src=b;a.google_image_requests.push(c)};var x=function(a){return{visible:1,hidden:2,prerender:3,preview:4}[a.webkitVisibilityState||a.mozVisibilityState||a.visibilityState||""]||0},y=function(a){var b;a.mozVisibilityState?b="mozvisibilitychange":a.webkitVisibilityState?b="webkitvisibilitychange":a.visibilityState&&(b="visibilitychange");return b};var C=function(){this.g=r;this.k=s;this.j=!1;this.i=null;this.h=[];this.o={};if(z)this.i=q();else if(3==x(this.g)){this.i=q();var a=p(this.q,this);A&&(a=A("di::vch",a));this.p=a;var b=this.g,c=y(this.g);b.addEventListener?b.addEventListener(c,a,!1):b.attachEvent&&b.attachEvent("on"+c,a)}else B(this)},A;C.m=function(){return C.n?C.n:C.n=new C};var D=/^([^:]+:\/\/[^/]+)/m,G=/^\d*,(.+)$/m,z=!1,B=function(a){if(!a.j){a.j=!0;for(var b=0;b<a.h.length;++b)a.l.apply(a,a.h[b]);a.h=[]}};C.prototype.s=function(a,b){var c=b.target.u();(c=G.exec(c))&&(this.o[a]=c[1])};C.prototype.l=function(a,b){this.k.rvdt=this.i?q()-this.i:0;var c;if(c=this.t)t:{try{var d=D.exec(this.k.location.href),e=D.exec(a);if(d&&e&&d[1]==e[1]&&b){var f=p(this.s,this,b);this.t(a,f);c=!0;break t}}catch(u){}c=!1}c||w(this.k,a)};C.prototype.q=function(){if(3!=x(this.g)){B(this);var a=this.g,b=y(this.g),c=this.p;a.removeEventListener?a.removeEventListener(b,c,!1):a.detachEvent&&a.detachEvent("on"+b,c)}};var H=/^true$/.test("")?!0:!1;var I={},J=function(a){var b=a.toString();a.name&&-1==b.indexOf(a.name)&&(b+=": "+a.name);a.message&&-1==b.indexOf(a.message)&&(b+=": "+a.message);if(a.stack){a=a.stack;var c=b;try{-1==a.indexOf(c)&&(a=c+"\n"+a);for(var d;a!=d;)d=a,a=a.replace(/((https?:\/..*\/)[^\/:]*:\d+(?:.|\n)*)\2/,"$1");b=a.replace(/\n */g,"\n")}catch(e){b=c}}return b},M=function(a,b,c,d){var e=K,f,u=!0;try{f=b()}catch(h){try{var N=J(h);b="";h.fileName&&(b=h.fileName);var E=-1;h.lineNumber&&(E=h.lineNumber);var v;t:{try{v=c?c():"";break t}catch(S){}v=""}u=e(a,N,b,E,v)}catch(k){try{var O=J(k);a="";k.fileName&&(a=k.fileName);c=-1;k.lineNumber&&(c=k.lineNumber);K("pAR",O,a,c,void 0,void 0)}catch(F){L({context:"mRE",msg:F.toString()+"\n"+(F.stack||"")},void 0)}}if(!u)throw h;}finally{if(d)try{d()}catch(T){}}return f},K=function(a,b,c,d,e,f){a={context:a,msg:b.substring(0,512),eid:e&&e.substring(0,40),file:c,line:d.toString(),url:r.URL.substring(0,512),ref:r.referrer.substring(0,512)};P(a);L(a,f);return!0},L=function(a,b){try{if(Math.random()<(b||.01)){var c="/pagead/gen_204?id=jserror"+Q(a),d="http"+("https:"==s.location.protocol?"s":"")+"://pagead2.googlesyndication.com"+c,d=d.substring(0,2E3);w(s,d)}}catch(e){}},P=function(a){var b=a||{};t(I,function(a,d){b[d]=s[a]})},R=function(a,b,c,d,e){return function(){var f=arguments;return M(a,function(){return b.apply(c,f)},d,e)}},Q=function(a){var b="";t(a,function(a,d){if(0===a||a)b+="&"+d+"="+("function"==typeof encodeURIComponent?encodeURIComponent(a):escape(a))});return b};A=function(a,b,c,d){return R(a,b,void 0,c,d)};z=H;l("vu",R("vu",function(a,b){var c=a.replace("&amp;","&"),d=/(google|doubleclick).*\/pagead\/adview/.test(c),e=C.m();if(d){d="&vis="+x(e.g);b&&(d+="&ve=1");var f=c.indexOf("&adurl"),c=-1==f?c+d:c.substring(0,f)+d+c.substring(f)}e.j?e.l(c,b):e.h.push([c,b])}));l("vv",R("vv",function(){z&&B(C.m())}));})();vu("https://securepubads.g.doubleclick.net/pcs/view?xai\x3dAKAOjst1l1-8NX4wfcE6ksRDLHZ7g9qCxfriRf6aH2Ym-UPLf2MSQDe6zNMzl1MP8ovlNlSet01d4--gNNOLI9QMz7iWr4YCQpHeVBjaqbiKI_ejei_B005fuDE9djuoEZstaL1FU2GHauwCNoNoqYF7pvK3Hz2nlqQG9QFPN6y4CJP8lZqdBgc2FehP3Miy8vO-Ywk_ZTpTbkn7q5h9NiTTpgaKlaqZbdDMQJ1U4MDA6CrtI91pK8c\x26sig\x3dCg0ArKJSzNdcASMMdHttEAE\x26urlfix\x3d1\x26adurl\x3d")osdlfm(-1,'','BccENMT7ZWbP_L4qXtgfOk6eYCQAAAAAQATgByAEJwAIC4AIA4AQBoAYW0ggFCIBhEAE','',2103458095,true,'ud\x3d1\x26la\x3d0\x26alp\x3dxai\x26alh\x3d1016992013\x26',3,'CAASBORoic4','//pagead2.googlesyndication.com/activeview?avi\x3dBccENMT7ZWbP_L4qXtgfOk6eYCQAAAAAQATgByAEJwAIC4AIA4AQBoAYW0ggFCIBhEAE\x26cid\x3dCAASBORoic4');if (window.top && window.top.postMessage) {window.top.postMessage('{"googMsgType":"adpnt"}','*');}
+
+ 
+
+
+Java with Daniel and Samantha Bosman after he shed 23kg Picture: Mark West
+While many people have a tough time losing weight, a podgy Port Elizabeth pooch has won his battle against the bulge by losing a hefty 23kg.
+Java, a five-year-old Rhodesian Ridgeback, owned by Samantha and Daniel Bosman, of Bushy Park, is one of three finalists from the Eastern Cape in the Hill’s Pet Slimmer of the Year 2017 competition.
+Originally weighing in at a whopping 67kg, the once lazy and overweight hound managed to lose 23kg within a couple of months.
+“When we got him he was one of a litter of nine and the biggest pup,” Samantha said.
+Adopted along with his sister, Shira, the pair were inseparable until Shira’s death.
+“He didn’t do anything after that, everything changed, he didn’t exercise or anything . . . and it got worse after he was neutered,” she said.
+Samantha said it became evident Java had a weight problem when visitors commented on how big he had got.
+“People would comment on how fat he was. I knew we had to do something.
+“I used to take him for runs once a week, but it was difficult for him with his big body and little legs.”
+After a consultation with Ja- va’s vet, Dr Barbara Hoek of Cape Cross Animal Hospital, the lovable hound was put on a strict diet.
+He has since lost 34% of his body weight.
+“There has been such a big change, he now eats twice a day and his food is weighed to the gram. He is so full of life now, running up and down and playing with our new puppy,” Samantha said.
+
+
+
+
+
+
+Another contender for the top honours is Puganini, a pug crossbreed from Uitenhage, who was adopted by her family in 2014.
+Puganini with her adopted family Corlia (back), Sarah and Leandra. Inset: Puganini before losing 19% of her body weightPicture: Mark West
+“We struggled to find a food she actually liked right from the start,” owner Leandra Lombard said.
+Lombard said after a year and a half she could not take the comments about her dog’s enormous weight any longer.
+“Even strangers would comment and it seemed our girl understood what they said and it upset her,” she said.
+Put on the same diet as Java, Puganini lost 2.3kg and went down from 12.3kg to 10kg.
+The third finalist, Gracie, a 12-year-old dachshund from Jeffrey’s Bay, lost 4.6kg – 34% of her total body weight.
+
+
+
+
+
+
+Rescued as an abandoned newborn pup, Gracie gained weight after the death of her companion Cheeky.
+“The only thing [she] wanted to do was eat,” owner Carina van Wyk said.
+After being placed on diet, Gracie shed the kilos and has become more active.
+The winner of the competition will be announced on November 1.
+Nine dogs and one cat have been announced as finalists this year.
+The first-place winner will receive R10 000.
+Above: Gracie, before her diet, with owner Carina van Wyk. Below: Gracie after losing 34% of her body weightPicture: Mark West
+
+
+
+
+<div><style scoped="true">div[class*=chrgads] { box-sizing: border-box } .chrgads-ad-wrapper { display: flex; flex-wrap: wrap; align-content: space-around; margin: 0; padding: 20px 0 0; cursor: pointer; border-top: 1px solid #eaeaea; font-family: Arial, sans-serif; } .chrgads-media-wrapper { flex-basis: 100%; margin-bottom: 1em } @media (min-width:768px) { .chrgads-media-wrapper { flex-basis: 35%; margin: 0 } } .chrgads-img-wrapper img { max-width: 100%; } .chrgads-img-wrapper img[src=""] { display: none; } .chrgads-video-wrapper { width: 100%; } .chrgads-text-wrapper { flex-basis: 100%; text-align: left; } @media (min-width:768px) { .chrgads-text-wrapper { flex-basis: 65%; padding-left: 10px } } .chrgads-title { color: #333; font-size: 24px; line-height: 1; margin: 0; } @media (min-width:768px) { .chrgads-title {} } .chrgads-description { color: #000; margin: 10px 0 !important; font-size: 14px; line-height: 20px; } @media (min-width:768px) { .chrgads-description {} } .chrgads-info { color: #333; font-weight: bold; line-height: 1; margin-bottom: 10px; } @media (min-width:768px) { .chrgads-info {} } .chrgads-sponsored { color: #fff; font-size: 10px; background-color: #0071bd; padding: 4px 5px; text-transform: uppercase; font-weight: bold; line-height: 1; display: inline-block; vertical-align: middle; } @media (min-width:768px) { .chrgads-sponsored {} } .chrgads-advertiser{ color: #333; font-size: 12px; font-weight: bold; line-height: 1; margin-top: 0px; display: inline-block; vertical-align: middle; } @media (min-width:768px) { .chrgads-advertiser {} } a, a:hover, a:visited { text-decoration: none !important } </style><a href="${URL}" target="_blank"><div class="chrgads-ad-wrapper"><div class="chrgads-media-wrapper"><div class="chrgads-img-wrapper"><img src="${MAIN}" alt="${TITLE}"></div>${VAST} </div><div class="chrgads-text-wrapper"><div class="chrgads-info"><span class="chrgads-sponsored">Promoted</span><span class="chrgads-advertiser" style="">${COMPANY_NAME} | ${DISPLAY_URL}</span></div><div class="chrgads-title">${TITLE}</div><p class="chrgads-description">${DESCRIPTION}</p></div></div></a></div>
+
+
+
+	Related
+Husband and two suspected hitmen held in H’dorp murderA HIT-STYLE murder involving a husband and two hired killers is expected to be unravelled in the Humansdorp Magistrate’s Court next week. The victim, Roseline Bosman, 45, was killed just weeks before her divorce became final. Her body was found on her bed in her Booyce Street home in Humansdorp…September 16, 2015PE’s Daniels into ‘Idols SA’ top 10 after save by judgesAfter nearly getting the boot from singing competition Idols SA, Port Elizabeth’s Christo Daniels made it into the Top 10 after being saved by the judges. Daniels was one of two saves from last night’s episode which saw 16 singers dwindled down to 10. In a notably tense episode, host…September 11, 2017The Herald Bride and Groom finalistsHere they are: the 12 couples who have made it through the photographic judging to the finals of The Herald Bride and Groom 2016 competition, and one of them will win the lion’s share of prizes worth more than R100 000. And you – the reader – have a hand…February 28, 2017   	
